@@ -1,0 +1,48 @@
+#button{
+    z-index: 2;
+}
+#container{
+    width: 600px;
+    height: 500px;
+    position: relative;    
+    overflow: hidden;
+    z-index: 10;
+}
+#box1{
+    width: 3000px;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+}
+img{
+    width: 600px;
+    height: 500px;
+    float: left;
+}
+.arrow{
+    top:230px;
+    position:absolute;
+    display: none;
+    text-align: center;
+    color:#fff;
+    background-color: rgba(255,97, 0, .3);
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+    cursor: pointer;
+    line-height: 35px;
+    font-size: 36px;
+}
+.arrow:hover{
+    background-color: rgba(0,0, 0, .7);
+}
+#container:hover .arrow{
+    display: inline;
+}
+#tleft{
+    left: 20px;
+}
+#tright{
+    right: 20px;
+}
